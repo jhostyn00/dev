@@ -1,0 +1,601 @@
+@font-face {
+    font-family: 'GBlack';
+    src: url(/rg/fonts/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: 'GBold';
+    src: url(/rg/fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: 'GBook';
+    src: url(/rg/fonts/GothamBook.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_gris_oscuro: #49535C;
+    --color_azul_oscuro: #213242;
+    --color_crema: #E1B783;
+    --sombra_fondo: rgba(0, 0, 0, 0.322);
+    --color_active: #49535C;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* MAPA */
+.img_nt {
+    position: relative;
+}
+
+.img_nt .fil2 {
+    fill: var(--color_azul_oscuro);
+    &:hover {
+        cursor: pointer;
+    }
+}
+.img_nt .fil0 {
+    fill: #7E8E9A;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.img_nt .fil1 {
+    fill: var(--color_crema);
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.pais_mapa {
+    color: var(--color_azul_oscuro);
+    background-color: var(--color_crema);
+    width: 0;
+    text-align: center;
+    display: inline-block;
+    font-family: 'GBold';
+    font-size: 12px;
+    border-radius: 5px;
+    position: absolute;
+    overflow: hidden;
+    transition: width .3s;
+}
+
+.pais_1 {
+    top: 42%;
+    left: 10%;
+}
+
+.pais_2 {
+    left: 16%;
+    top: 58%;
+}
+
+.pais_3 {
+    left: 18%;
+    top: 59%;
+}
+
+.pais_4 {
+    left: 17%;
+    top: 69%;
+}
+
+.pais_5 {
+    left: 21%;
+    top: 77%;
+}
+
+.pais_6 {
+    left: 17%;
+    top: 87%;
+}
+
+.pais_7 {
+    left: 41%;
+    top: 23%;
+}
+
+.mostrar_pais {
+    width: 80px;
+}
+
+@media (min-width: 1367px) {
+    header {
+        background-color: var(--color_azul_oscuro);
+    }
+
+    .header_nt {
+        height: 90px;
+    }
+
+    .main_nt {
+        background-color: var(--color_azul_oscuro);
+        color: var(--color_crema);
+    }
+
+    .main_item_back_nt {
+        background-color: var(--sombra_fondo);
+    }
+
+    .main_item_nt {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .img_nt svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .texto_nt {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        text-align: justify;
+    }
+
+    .texto_nt h1 {
+        font-family: 'GBold';
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .texto_nt p {
+        font-family: 'GBook';
+    }
+
+    .texto_nt p:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    .header_back_sombra_nosotros {
+        background-color: var(--sombra_fondo);
+        height: 100%;
+    }
+}
+@media (min-width: 1281px) and (max-width: 1366px) {
+    header {
+        background-color: var(--color_azul_oscuro);
+    }
+
+    .header_nt {
+        height: 90px;
+    }
+
+    .main_nt {
+        background-color: var(--color_azul_oscuro);
+        color: var(--color_crema);
+    }
+
+    .main_item_back_nt {
+        background-color: var(--sombra_fondo);
+    }
+
+    .main_item_nt {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        text-align: justify;
+    }
+
+    .img_nt svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .texto_nt {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+
+    .texto_nt h1 {
+        font-family: 'GBold';
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .texto_nt p {
+        font-family: 'GBook';
+    }
+
+    .texto_nt p:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    .header_back_sombra_nosotros {
+        background-color: var(--sombra_fondo);
+        height: 100%;
+    }
+
+    .nav .active li span {
+        color: var(--color_crema);
+    }
+
+    /* MAPA */
+    /* .fil2 {
+        fill: var(--color_azul_oscuro);
+    }
+    .fil0 {
+        fill: #7E8E9A;
+    }
+    .fil1 {
+        fill: var(--color_crema);
+    } */
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    header {
+        background-color: var(--color_azul_oscuro);
+    }
+
+    .header_nt {
+        height: 90px;
+    }
+
+    .main_nt {
+        background-color: var(--color_azul_oscuro);
+        color: var(--color_crema);
+    }
+
+    .main_item_back_nt {
+        background-color: var(--sombra_fondo);
+    }
+
+    .main_item_nt {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .img_nt svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .texto_nt {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        text-align: justify;
+    }
+
+    .texto_nt h1 {
+        font-family: 'GBold';
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .texto_nt p {
+        font-family: 'GBook';
+    }
+
+    .texto_nt p:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    .header_back_sombra_nosotros {
+        background-color: var(--sombra_fondo);
+        height: 100%;
+    }
+
+    .nav .active li span {
+        color: var(--color_crema);
+    }
+
+    /* MAPA */
+    /* .fil2 {
+        fill: var(--color_azul_oscuro);
+    }
+    .fil0 {
+        fill: #7E8E9A;
+    }
+    .fil1 {
+        fill: var(--color_crema);
+    } */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        background-color: var(--color_azul_oscuro);
+    }
+
+    .header_nt {
+        height: 90px;
+    }
+
+    .main_nt {
+        background-color: var(--color_azul_oscuro);
+        color: var(--color_crema);
+    }
+
+    .main_item_back_nt {
+        background-color: var(--sombra_fondo);
+    }
+
+    .main_item_nt {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        text-align: justify;
+    }
+
+    .img_nt svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .texto_nt {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+
+    .texto_nt h1 {
+        font-family: 'GBold';
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .texto_nt p {
+        font-family: 'GBook';
+    }
+
+    .texto_nt p:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    .header_back_sombra_nosotros {
+        background-color: var(--sombra_fondo);
+        height: 100%;
+    }
+
+    .nav .active li span {
+        color: var(--color_crema);
+    }
+
+    /* MAPA */
+    .pais_mapa {
+        font-size: 10px;
+    }
+
+    .mostrar_pais {
+        width: 70px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+        background-color: var(--color_azul_oscuro);
+    }
+
+    .header_nt {
+        height: 90px;
+    }
+
+    .main_nt {
+        background-color: var(--color_azul_oscuro);
+        color: var(--color_crema);
+    }
+
+    .main_item_back_nt {
+        background-color: var(--sombra_fondo);
+    }
+
+    .main_item_nt {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        text-align: justify;
+    }
+
+    .img_nt svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .texto_nt {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+
+    .texto_nt h1 {
+        font-family: 'GBold';
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .texto_nt p {
+        font-family: 'GBook';
+    }
+
+    .texto_nt p:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    .header_back_sombra_nosotros {
+        background-color: var(--sombra_fondo);
+        height: 100%;
+    }
+
+    .nav .active li span {
+        color: var(--color_crema);
+    }
+
+    /* MAPA */
+    .pais_mapa {
+        font-size: 10px;
+    }
+
+    .pais_1 {
+        top: 42%;
+        left: 2%;
+    }
+    
+    .pais_2 {
+        left: 8%;
+        top: 58%;
+    }
+    
+    .pais_3 {
+        left: 10%;
+        top: 59%;
+    }
+    
+    .pais_4 {
+        left: 9%;
+        top: 69%;
+    }
+    
+    .pais_5 {
+        left: 15%;
+        top: 77%;
+    }
+    
+    .pais_6 {
+        left: 9%;
+        top: 87%;
+    }
+    
+    .pais_7 {
+        left: 33%;
+        top: 23%;
+    }
+    
+    .mostrar_pais {
+        width: 70px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        background-color: var(--color_azul_oscuro);
+    }
+
+    .header_nt {
+        height: 90px;
+    }
+
+    .main_nt {
+        background-color: var(--color_azul_oscuro);
+        color: var(--color_crema);
+    }
+
+    .main_item_back_nt {
+        background-color: var(--sombra_fondo);
+    }
+
+    .main_item_nt {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .img_nt svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .texto_nt {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        width: 80%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .texto_nt h1 {
+        font-family: 'GBold';
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .texto_nt p {
+        font-family: 'GBook';
+        font-size: 14px;
+    }
+
+    .texto_nt p:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    .header_back_sombra_nosotros {
+        background-color: var(--sombra_fondo);
+        height: 100%;
+    }
+
+    .nav .active li span {
+        color: var(--color_crema);
+    }
+
+    /* MAPA */
+    .pais_mapa {
+        font-size: 10px;
+    }
+
+    .pais_1 {
+        top: 42%;
+        left: 2%;
+    }
+    
+    .pais_2 {
+        left: 8%;
+        top: 58%;
+    }
+    
+    .pais_3 {
+        left: 10%;
+        top: 59%;
+    }
+    
+    .pais_4 {
+        left: 9%;
+        top: 69%;
+    }
+    
+    .pais_5 {
+        left: 15%;
+        top: 77%;
+    }
+    
+    .pais_6 {
+        left: 9%;
+        top: 87%;
+    }
+    
+    .pais_7 {
+        left: 33%;
+        top: 23%;
+    }
+    
+    .mostrar_pais {
+        width: 70px;
+    }
+}

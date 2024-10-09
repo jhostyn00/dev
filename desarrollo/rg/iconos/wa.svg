@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="30px" height="30px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 0.57 0.57"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="780" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="Gotham">
+		<font-face-src>
+			<font-face-name name="Gotham-Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="B" horiz-adv-x="712" d="M669.676 189.7l0 1.9916c0,46.0558 -11.7007,82.1536 -34.6041,108.044 -22.6545,25.8908 -54.2712,46.5537 -94.1032,61.7397 12.1986,6.47271 23.8992,14.4391 34.6041,23.6503 10.9538,9.21116 20.165,19.916 28.3803,32.1146 8.46431,12.1986 14.6881,25.8908 19.6671,41.0768 4.97901,15.186 7.46851,32.6125 7.46851,52.2796l0 1.9916c0,54.5201 -20.165,98.0864 -60.4949,130.45 -40.5789,32.1146 -96.3438,48.2964 -167.046,48.2964l-320.648 0 0 -691.335 328.365 0c38.8362,0 74.1872,3.9832 106.053,11.9496 31.8656,7.71746 59.0012,19.6671 81.9046,35.3509 22.4055,15.9328 39.832,35.5999 52.0306,59.2502 12.1986,23.8992 18.4223,51.5327 18.4223,83.1494zm-188.704 295.255c0,-25.6419 -9.95801,-44.3132 -29.6251,-55.7649 -19.6671,-11.7007 -46.5537,-17.4265 -79.913,-17.4265l-140.408 0 0 146.134 150.117 0c32.3635,0 57.0096,-5.97481 74.1872,-18.1734 17.1776,-12.1986 25.6419,-29.874 25.6419,-52.7775l0 -1.9916zm38.5873 -276.584c0,-25.6419 -9.70906,-44.5621 -28.6293,-56.7607 -19.1692,-12.1986 -45.5579,-18.1734 -79.1662,-18.1734l-180.738 0 0 151.86 175.759 0c39.5831,0 68.2124,-6.72166 86.1368,-20.165 17.6755,-13.4433 26.6377,-31.6167 26.6377,-54.7691l0 -1.9916z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Gotham";font-variant:normal;font-style:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .fil2 {fill:#213242}
+    .fil1 {fill:#213242;fill-rule:nonzero}
+    .fil0 {fill:#E1B783;fill-rule:nonzero}
+    .fnt0 {font-weight:bold;font-size:0.21px;font-family:'Gotham'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2251794572624">
+   <path class="fil0" d="M0.42 0.57l-0.28 0c-0.08,0 -0.14,-0.07 -0.14,-0.15l0 -0.28c0,-0.08 0.06,-0.14 0.14,-0.14l0.28 0c0.08,0 0.15,0.06 0.15,0.14l0 0.28c0,0.08 -0.07,0.15 -0.15,0.15z"/>
+   <path class="fil1" d="M0.21 0.39l0.01 0c0.02,0.02 0.04,0.02 0.07,0.02 0.07,0 0.13,-0.06 0.13,-0.13 0,-0.07 -0.06,-0.13 -0.13,-0.13 -0.08,0 -0.14,0.06 -0.14,0.13 0,0.03 0.01,0.05 0.02,0.07l0.01 0.01 -0.02 0.04 0.05 -0.01zm-0.09 0.06l0.02 -0.09c-0.01,-0.02 -0.02,-0.05 -0.02,-0.08 0,-0.09 0.08,-0.16 0.17,-0.16 0.08,0 0.16,0.07 0.16,0.16 0,0.09 -0.08,0.16 -0.16,0.16 -0.03,0 -0.06,0 -0.08,-0.02l-0.09 0.03z"/>
+   <g transform="matrix(1.00011 0 0 1 -14.7889 46.489)">
+    <text x="15" y="-46.13"  class="fil2 fnt0">B</text>
+   </g>
+  </g>
+ </g>
+</svg>

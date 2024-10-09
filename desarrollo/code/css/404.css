@@ -1,0 +1,605 @@
+@font-face {
+    font-family: 'GBlack';
+    src: url(/rg/fonts/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: 'GBold';
+    src: url(/rg/fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: 'GBook';
+    src: url(/rg/fonts/GothamBook.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_gris_oscuro: #49535C;
+    --color_azul_oscuro: #213242;
+    --color_crema: #E1B783;
+    --sombra_fondo: rgba(0, 0, 0, 0.322);
+    --color_active: #49535C;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: var(--color_azul_oscuro);
+    color: var(--color_crema);
+    height: 100vh;
+}
+
+.body_item_back {
+    background-color: var(--sombra_fondo);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 1367px) {
+    .header_erro {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header_error_item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header_error_item h2 {
+        font-family: 'GBlack';
+        font-size: 35px;
+    }
+
+    .container_icono_flecha {
+        width: 25px;
+    }
+
+    .container_icono_flecha svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .icono_flecha_error {
+        fill: var(--color_crema);
+    }
+
+    .link_marketing_error {
+        font-family: 'GBook';
+        text-decoration: none;
+        color: var(--color_crema);
+        font-size: 20px;
+    }
+
+    main {
+        height: 400px;
+    }
+
+    .main_item {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icono_error_main {
+        width: 400px;
+        height: 400px;
+    }
+
+    .icono_error_main img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        fill: var(--color_crema);
+    }
+
+    .texto_error_main h1 {
+        font-family: 'GBlack';
+        font-size: 40px;
+    }
+
+    .texto_error_main p {
+        font-family: 'GBook';
+        font-size: 23px;
+        width: 250px;
+    }
+    footer {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer p {
+        width: 80%;
+        margin: 0 auto;
+        font-family: 'GBold';
+        text-align: center;
+    }
+}
+@media (min-width: 1281px) and (max-width: 1366px) {
+    .header_erro {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header_error_item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header_error_item h2 {
+        font-family: 'GBlack';
+        font-size: 35px;
+    }
+
+    .container_icono_flecha {
+        width: 25px;
+    }
+
+    .container_icono_flecha svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .icono_flecha_error {
+        fill: var(--color_crema);
+    }
+
+    .link_marketing_error {
+        font-family: 'GBook';
+        text-decoration: none;
+        color: var(--color_crema);
+        font-size: 20px;
+    }
+
+    main {
+        height: 400px;
+    }
+
+    .main_item {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icono_error_main {
+        width: 400px;
+        height: 400px;
+    }
+
+    .icono_error_main img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        fill: var(--color_crema);
+    }
+
+    .texto_error_main h1 {
+        font-family: 'GBlack';
+        font-size: 40px;
+    }
+
+    .texto_error_main p {
+        font-family: 'GBook';
+        font-size: 23px;
+        width: 250px;
+    }
+    footer {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer p {
+        width: 80%;
+        margin: 0 auto;
+        font-family: 'GBold';
+        text-align: center;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .header_erro {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header_error_item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header_error_item h2 {
+        font-family: 'GBlack';
+        font-size: 25px;
+    }
+
+    .container_icono_flecha {
+        width: 25px;
+    }
+
+    .container_icono_flecha svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .icono_flecha_error {
+        fill: var(--color_crema);
+    }
+
+    .link_marketing_error {
+        font-family: 'GBook';
+        text-decoration: none;
+        color: var(--color_crema);
+        font-size: 15px;
+    }
+
+    main {
+        height: 400px;
+    }
+
+    .main_item {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icono_error_main {
+        width: 300px;
+        height: 300px;
+    }
+
+    .icono_error_main img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        fill: var(--color_crema);
+    }
+
+    .texto_error_main h1 {
+        font-family: 'GBlack';
+        font-size: 40px;
+    }
+
+    .texto_error_main p {
+        font-family: 'GBook';
+        font-size: 23px;
+        width: 250px;
+    }
+    footer {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer p {
+        width: 80%;
+        margin: 0 auto;
+        font-family: 'GBold';
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header_erro {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header_error_item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header_error_item h2 {
+        font-family: 'GBlack';
+        font-size: 25px;
+    }
+
+    .container_icono_flecha {
+        width: 25px;
+    }
+
+    .container_icono_flecha svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .icono_flecha_error {
+        fill: var(--color_crema);
+    }
+
+    .link_marketing_error {
+        font-family: 'GBook';
+        text-decoration: none;
+        color: var(--color_crema);
+        font-size: 18px;
+    }
+
+    main {
+        height: 400px;
+    }
+
+    .main_item {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icono_error_main {
+        width: 420px;
+        height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icono_error_main img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .texto_error_main h1 {
+        font-family: 'GBlack';
+        font-size: 40px;
+    }
+
+    .texto_error_main p {
+        font-family: 'GBook';
+        font-size: 23px;
+        width: 250px;
+    }
+    footer {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer p {
+        width: 80%;
+        margin: 0 auto;
+        font-family: 'GBold';
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .header_erro {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header_error_item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header_error_item h2 {
+        font-family: 'GBlack';
+        font-size: 22px;
+    }
+
+    .container_icono_flecha {
+        width: 15px;
+    }
+
+    .container_icono_flecha svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .icono_flecha_error {
+        fill: var(--color_crema);
+    }
+
+    .link_marketing_error {
+        font-family: 'GBook';
+        text-decoration: none;
+        color: var(--color_crema);
+        font-size: 15px;
+    }
+
+    main {
+        height: 400px;
+    }
+
+    .main_item {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .icono_error_main {
+        width: 300px;
+        height: 300px;
+    }
+
+    .icono_error_main img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        fill: var(--color_crema);
+    }
+
+    .texto_error_main {
+        text-align: center;
+    }
+
+    .texto_error_main h1 {
+        font-family: 'GBlack';
+        font-size: 22px;
+    }
+
+    .texto_error_main p {
+        font-family: 'GBook';
+        font-size: 15px;
+        width: 200px;
+    }
+    footer {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer p {
+        width: 80%;
+        margin: 0 auto;
+        font-family: 'GBold';
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .header_erro {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header_error_item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .header_error_item h2 {
+        font-family: 'GBlack';
+        font-size: 22px;
+    }
+
+    .container_icono_flecha {
+        width: 15px;
+    }
+
+    .container_icono_flecha svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: rotate(90deg);
+    }
+
+    .icono_flecha_error {
+        fill: var(--color_crema);
+    }
+
+    .link_marketing_error {
+        font-family: 'GBook';
+        text-decoration: none;
+        color: var(--color_crema);
+        font-size: 15px;
+    }
+
+    main {
+        height: 400px;
+    }
+
+    .main_item {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .icono_error_main {
+        width: 256px;
+        height: 240px;
+    }
+
+    .icono_error_main img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        fill: var(--color_crema);
+    }
+
+    .texto_error_main {
+        text-align: center;
+    }
+
+    .texto_error_main h1 {
+        font-family: 'GBlack';
+        font-size: 22px;
+    }
+
+    .texto_error_main p {
+        font-family: 'GBook';
+        font-size: 15px;
+        width: 200px;
+    }
+    footer {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer p {
+        width: 80%;
+        margin: 0 auto;
+        font-family: 'GBold';
+        text-align: center;
+        font-size: 13px;
+    }
+}
